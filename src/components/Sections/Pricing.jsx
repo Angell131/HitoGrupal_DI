@@ -5,7 +5,7 @@ import PricingTable from "../Elements/PricingTable";
 
 export default function Pricing() {
   return (
-      <Wrapper id="precios">
+      <Wrapper id="pricing">
           <div className="fondoBlanco">
               <div className="container">
                   <HeaderInfo>

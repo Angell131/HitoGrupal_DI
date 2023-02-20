@@ -18,15 +18,15 @@ export default function Contact() {
             <Link className="flexCenter animate pointer" to="home" smooth={true} offset={-80}>
               <LogoImg />
               <h1 className="font15 extraBold whiteColor" style={{ marginLeft: "15px" }}>
-                Fanatic
+                HGrupal
               </h1>
             </Link>
             <StyleP className="whiteColor font13">
-              © {getCurrentYear()} - <span className="purpleColor font13">Fanatic</span> All Right Reserved
+              © {getCurrentYear()} - <span className="purpleColor font13">HGrupal</span> All Right Reserved
             </StyleP>
 
             <Link className="whiteColor animate pointer font13" to="home" smooth={true} offset={-80}>
-              Back to top
+              Volver arriba
             </Link>
           </InnerWrapper>
         </div>

@@ -7,7 +7,7 @@ import ContactImg3 from "../../assets/img/contact-3.png";
 
 export default function Contact() {
   return (
-      <Wrapper id="contacto">
+      <Wrapper id="contact">
         <div className="fondoClaro">
           <div className="container">
             <HeaderInfo>
