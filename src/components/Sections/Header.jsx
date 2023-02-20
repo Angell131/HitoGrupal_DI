@@ -12,13 +12,14 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">We are Digital Agency.</h1>
+          <h1 className="extraBold font60">HG Desarrollo Interfaces</h1>
           <HeaderP className="font13 semiBold">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              Lorem fistrum ese que llega ese pedazo de consectetur cillum qué dise usteer reprehenderit ese que llega se calle ustée torpedo elit.
+              Cillum laboris hasta luego Lucas ullamco te voy a borrar el cerito commodo benemeritaar nostrud llevame al sircoo hasta luego Lucas velit.
+              Dolor velit enim sit amet a wan pecador consequat llevame al sircoo aute.
           </HeaderP>
-          <BtnWrapper>
-            <FullButton title="Get Started" />
+          <BtnWrapper >
+            <FullButton title="Empezar" />
           </BtnWrapper>
         </div>
       </LeftSide>
