@@ -5,70 +5,69 @@ import PricingTable from "../Elements/PricingTable";
 
 export default function Pricing() {
   return (
-    <Wrapper id="pricing">
-      <div className="whiteBg">
-        <div className="container">
-          <HeaderInfo>
-            <h1 className="font40 extraBold">Check Our Pricing</h1>
-            <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
-            </p>
-          </HeaderInfo>
-          <TablesWrapper className="flexSpaceNull">
-            <TableBox>
-              <PricingTable
-                icon="roller"
-                price="$29,99/mo"
-                title="Starter"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Product Offer #2", cheked: false },
-                  { name: "Product", cheked: false },
-                  { name: "Product Offer", cheked: false },
-                ]}
-                action={() => alert("clicked")}
-              />
-            </TableBox>
-            <TableBox>
-              <PricingTable
-                icon="monitor"
-                price="$49,99/mo"
-                title="Basic"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Product Offer #2", cheked: true },
-                  { name: "Product", cheked: true },
-                  { name: "Product Offer", cheked: false },
-                ]}
-                action={() => alert("clicked")}
-              />
-            </TableBox>
-            <TableBox>
-              <PricingTable
-                icon="browser"
-                price="$59,99/mo"
-                title="Golden"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Product Offer #2", cheked: true },
-                  { name: "Product", cheked: true },
-                  { name: "Product Offer", cheked: true },
-                ]}
-                action={() => alert("clicked")}
-              />
-            </TableBox>
-          </TablesWrapper>
-        </div>
-      </div>
-    </Wrapper>
+      <Wrapper id="precios">
+          <div className="fondoBlanco">
+              <div className="container">
+                  <HeaderInfo>
+                      <h1 className="font40 extraBold">Consulta nuestros precios</h1>
+                      <p className="font13">
+                          Elige el plan que más se ajuste a tus necesidades. ¡Comienza a disfrutar de tu música favorita sin anuncios y sin límites!
+                      </p>
+                  </HeaderInfo>
+                  <TablesWrapper className="flexSpaceNull">
+                      <TableBox>
+                          <PricingTable
+                              icon="roller"
+                              price="$4,99/mes"
+                              title="Individual"
+                              text="Disfruta de música sin anuncios y escucha tus canciones en cualquier dispositivo sin límites."
+                              offers={[
+                                  { name: "Escucha sin anuncios", checked: true },
+                                  { name: "Escucha en cualquier dispositivo", checked: true },
+                                  { name: "Salta canciones ilimitadamente", checked: true },
+                                  { name: "Descarga música y escucha offline", checked: false },
+                                  { name: "Escucha música en alta calidad", checked: false },
+                              ]}
+                              action={() => alert("Haz clic en 'Individual'")}
+                          />
+                      </TableBox>
+                      <TableBox>
+                          <PricingTable
+                              icon="monitor"
+                              price="$7,99/mes"
+                              title="Dúo"
+                              text="Obtén dos cuentas Premium para ti y otra persona que viva contigo, y ahorra en la factura."
+                              offers={[
+                                  { name: "Escucha sin anuncios", checked: true },
+                                  { name: "Escucha en cualquier dispositivo", checked: true },
+                                  { name: "Salta canciones ilimitadamente", checked: true },
+                                  { name: "Descarga música y escucha offline", checked: true },
+                                  { name: "Escucha música en alta calidad", checked: false },
+                              ]}
+                              action={() => alert("Haz clic en 'Dúo'")}
+                          />
+                      </TableBox>
+                      <TableBox>
+                          <PricingTable
+                              icon="browser"
+                              price="$9,99/mes"
+                              title="Familiar"
+                              text="Obtén hasta seis cuentas Premium para ti y tu familia, y ahorra en la factura."
+                              offers={[
+                                  { name: "Escucha sin anuncios", checked: true },
+                                  { name: "Escucha en cualquier dispositivo", checked: true },
+                                  { name: "Salta canciones ilimitadamente", checked: true },
+                                  { name: "Descarga música y escucha offline", checked: true },
+                                  { name: "Escucha música en alta calidad", checked: true },
+                              ]}
+                              action={() => alert("Haz clic en 'Familiar'")}
+                          />
+                      </TableBox>
+                  </TablesWrapper>
+              </div>
+          </div>
+      </Wrapper>
+
   );
 }
 
