@@ -23,9 +23,9 @@ export default function Services() {
           <HeaderInfo>
             <h1 className="font40 extraBold">Nuestros servicios</h1>
             <p className="font13">
-              Ofrecemos la posibilidad de que desde el móvil puedas gestionar mejor tu tiempo
+                Nuestro objetivo es brindar un servicio de calidad, con un tiempo de espera reducido
               <br/>
-              y una mejor organización de los recursos del comercio.
+                y con un costo accesible para todos.
             </p>
           </HeaderInfo>
           <ServiceBoxRow className="flex">
@@ -33,21 +33,21 @@ export default function Services() {
               <ServiceBox
                 icon="roller"
                 title="Diseñador Grafico"
-                subtitle="Gente creativa con habilidades artísticas y tecnológicas que crean diseños visuales atractivos y otros elementos gráficos para comunicar un mensaje o idea a un público específico."
+                subtitle="Contamos con un equipo de diseñadores gráficos que se encargan de crear y diseñar todo tipo de material gráfico para la empresa."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="monitor"
                 title="Diseñador Web"
-                subtitle="El diseñador web trabaja en la estructura, diseño, interactividad y experiencia del usuario de un sitio web para lograr los objetivos de la empresa o cliente que solicita el proyecto."
+                subtitle="Nuestro equipo de diseñadores web se encarga de crear y diseñar todo tipo de material gráfico para la empresa."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="browser"
                 title="Desarrollo"
-                subtitle="Gente que pueda crear, mejorar o modificar un sitio web, aplicaciones, software o cualquier otro producto digital."
+                subtitle="Nuestro equipo de desarrolladores se encarga de crear y diseñar todo tipo de material gráfico para la empresa."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
@@ -60,23 +60,23 @@ export default function Services() {
         </div>
         <div className="lightBg">
           <div className="container">
-            <Advertising className="flexSpaceCenter">
-              <AddLeft>
+            {/*<Advertising className="flexSpaceCenter">*/}
+            {/*  <AddLeft>*/}
 
-                <h2 className="font40 extraBold">Organización y tiempo en la palma de tu mano</h2>
-                <p className="font14">
-                  Intentamos disminuir el tiempo en esperas y rentabilizar los recursos de un comercio para que puedas dedicarselo a lo que más te gusta.
-                </p>
-                <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
-                  <div style={{ width: "190px" }}>
-                    <FullButton title="Regalo" action={() => alert("Enviando un Macbook Pro")} />
-                  </div>
-                  <div style={{ width: "190px", marginLeft: "15px" }}>
-                    <FullButton title="Aprobar" action={() => alert("Aprobando con un 9")} border />
-                  </div>
-                </ButtonsRow>
-              </AddLeft>
-            </Advertising>
+            {/*    <h2 className="font40 extraBold">Organización y tiempo en la palma de tu mano</h2>*/}
+            {/*    <p className="font14">*/}
+            {/*      Intentamos disminuir el tiempo en esperas y rentabilizar los recursos de un comercio para que puedas dedicarselo a lo que más te gusta.*/}
+            {/*    </p>*/}
+            {/*    <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>*/}
+            {/*      <div style={{ width: "190px" }}>*/}
+            {/*        <FullButton title="Regalo" action={() => alert("Enviando un Macbook Pro")} />*/}
+            {/*      </div>*/}
+            {/*      <div style={{ width: "190px", marginLeft: "15px" }}>*/}
+            {/*        <FullButton title="Aprobar" action={() => alert("Aprobando con un 9")} border />*/}
+            {/*      </div>*/}
+            {/*    </ButtonsRow>*/}
+            {/*  </AddLeft>*/}
+            {/*</Advertising>*/}
           </div>
         </div>
       </div>

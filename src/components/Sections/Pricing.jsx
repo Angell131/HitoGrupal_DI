@@ -11,22 +11,21 @@ export default function Pricing() {
                   <HeaderInfo>
                       <h1 className="font40 extraBold">Consulta nuestros precios</h1>
                       <p className="font13">
-                          Elige el plan que más se ajuste a tus necesidades. ¡Comienza a disfrutar de tu música favorita sin anuncios y sin límites!
+                          Elige el plan que más se ajuste a tus necesidades.
                       </p>
                   </HeaderInfo>
                   <TablesWrapper className="flexSpaceNull">
                       <TableBox>
                           <PricingTable
                               icon="roller"
-                              price="$4,99/mes"
                               title="Individual"
-                              text="Disfruta de música sin anuncios y escucha tus canciones en cualquier dispositivo sin límites."
+                              text="Obtén una cuenta Premium para ti solo."
                               offers={[
-                                  { name: "Escucha sin anuncios", checked: true },
-                                  { name: "Escucha en cualquier dispositivo", checked: true },
-                                  { name: "Salta canciones ilimitadamente", checked: true },
-                                  { name: "Descarga música y escucha offline", checked: false },
-                                  { name: "Escucha música en alta calidad", checked: false },
+                                  { name: "Servicios personalizados", checked: true },
+                                  { name: "Trabajamos mano a mano contigo", checked: true },
+                                  { name: "Sin compromiso de permanencia", checked: true },
+                                  { name: "", checked: false },
+                                  { name: "", checked: false },
                               ]}
                               action={() => alert("Haz clic en 'Individual'")}
                           />
@@ -34,15 +33,14 @@ export default function Pricing() {
                       <TableBox>
                           <PricingTable
                               icon="monitor"
-                              price="$7,99/mes"
-                              title="Dúo"
-                              text="Obtén dos cuentas Premium para ti y otra persona que viva contigo, y ahorra en la factura."
+                              title="Start ups"
+                              text="Ideal para empresas pequeñas y medianas."
                               offers={[
-                                  { name: "Escucha sin anuncios", checked: true },
-                                  { name: "Escucha en cualquier dispositivo", checked: true },
-                                  { name: "Salta canciones ilimitadamente", checked: true },
-                                  { name: "Descarga música y escucha offline", checked: true },
-                                  { name: "Escucha música en alta calidad", checked: false },
+                                  { name: "Servicios personalizados", checked: true },
+                                  { name: "Trabajamos mano a mano contigo", checked: true },
+                                  { name: "Sin compromiso de permanencia", checked: true },
+                                  { name: "", checked: false },
+                                  { name: "", checked: false },
                               ]}
                               action={() => alert("Haz clic en 'Dúo'")}
                           />
@@ -50,15 +48,14 @@ export default function Pricing() {
                       <TableBox>
                           <PricingTable
                               icon="browser"
-                              price="$9,99/mes"
-                              title="Familiar"
-                              text="Obtén hasta seis cuentas Premium para ti y tu familia, y ahorra en la factura."
+                              title="Empresas"
+                              text="Ideal para empresas grandes."
                               offers={[
-                                  { name: "Escucha sin anuncios", checked: true },
-                                  { name: "Escucha en cualquier dispositivo", checked: true },
-                                  { name: "Salta canciones ilimitadamente", checked: true },
-                                  { name: "Descarga música y escucha offline", checked: true },
-                                  { name: "Escucha música en alta calidad", checked: true },
+                                  { name: "Servicios personalizados", checked: true },
+                                  { name: "Trabajamos mano a mano contigo", checked: true },
+                                  { name: "Sin compromiso de permanencia", checked: true },
+                                  { name: "", checked: false },
+                                  { name: "", checked: false },
                               ]}
                               action={() => alert("Haz clic en 'Familiar'")}
                           />

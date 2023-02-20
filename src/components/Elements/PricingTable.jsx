@@ -59,7 +59,7 @@ export default function PricingTable({ icon, price, title, text,  offers, action
           : null}
       </div>
       <div style={{ maxWidth: "120px", margin: "30px auto 0 auto" }}>
-        <FullButton title="Buy" action={action} />
+        <FullButton title="Solicitar" action={action} />
       </div>
     </Wrapper>
   );

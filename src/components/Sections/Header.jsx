@@ -14,9 +14,7 @@ export default function Header() {
         <div>
           <h1 className="extraBold font60">HG Desarrollo Interfaces</h1>
           <HeaderP className="font13 semiBold">
-              Lorem fistrum ese que llega ese pedazo de consectetur cillum qué dise usteer reprehenderit ese que llega se calle ustée torpedo elit.
-              Cillum laboris hasta luego Lucas ullamco te voy a borrar el cerito commodo benemeritaar nostrud llevame al sircoo hasta luego Lucas velit.
-              Dolor velit enim sit amet a wan pecador consequat llevame al sircoo aute.
+              Somos una empresa dedicada a la creación de interfaces de usuario para aplicaciones web y móviles.
           </HeaderP>
           <BtnWrapper >
             <FullButton title="Empezar" />

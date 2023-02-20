@@ -13,7 +13,7 @@ export default function Contact() {
             <HeaderInfo>
               <h1 className="font40 extraBold">Ponte en contacto con nosotros</h1>
               <p className="font13">
-                Si necesitas información adicional sobre los planes de Spotify o tienes alguna pregunta, déjanos un mensaje y nos pondremos en contacto contigo a la brevedad.
+                Si necesitas información adicional sobre nuestros servicios, no dudes en ponerte en contacto con nosotros.
               </p>
             </HeaderInfo>
             <div className="row" style={{ paddingBottom: "30px" }}>
