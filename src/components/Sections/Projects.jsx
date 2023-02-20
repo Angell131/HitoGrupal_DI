@@ -18,7 +18,7 @@ export default function Projects() {
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Awesome Projects</h1>
+            <h1 className="font40 extraBold">Nuestros Proyectos</h1>
             <p className="font13">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
@@ -29,24 +29,24 @@ export default function Projects() {
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg1}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                title="Proyecto web"
+                text="Pagina web responsive."
                 action={() => alert("clicked")}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg2}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                title="Proyecto móvil"
+                text="Ejemplo de aplicación móvil para Android."
                 action={() => alert("clicked")}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg3}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                title="Proyecto para IOs"
+                text="Ejemplo de aplicación móvil para IOs."
                 action={() => alert("clicked")}
               />
             </div>
@@ -55,31 +55,31 @@ export default function Projects() {
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg4}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                title="Juego 3D"
+                text="Juego 3D desarrollado en Unreal Engine 5."
                 action={() => alert("clicked")}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg5}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                title="Juego 2D"
+                text="Juego 2D desarrollado en Unity."
                 action={() => alert("clicked")}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg6}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                title="Experiencia Virtual"
+                text="Experiencia virtual desarrollada en Unity con VR."
                 action={() => alert("clicked")}
               />
             </div>
           </div>
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
-              <FullButton title="Load More" action={() => alert("clicked")} />
+              <FullButton title="Saber más" action={() => alert("MacBook Pro es una línea de computadoras portátiles premium desarrollada por Apple. Estos dispositivos están diseñados para usuarios avanzados y profesionales que requieren alto rendimiento y capacidad de procesamiento, y vienen con especificaciones de hardware de alta gama, como procesadores Intel o M1, pantallas de alta resolución, almacenamiento en estado sólido (SSD), cámaras web y altavoces de alta calidad. Además, vienen con el sistema operativo macOS de Apple y ofrecen una serie de características exclusivas de la marca, como la integración con otros dispositivos de Apple a través de iCloud y la compatibilidad con aplicaciones exclusivas de macOS.")} />
             </div>
           </div>
         </div>

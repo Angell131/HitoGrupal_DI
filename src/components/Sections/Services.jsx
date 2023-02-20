@@ -21,37 +21,40 @@ export default function Services() {
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Awesome Services</h1>
+            <h1 className="font40 extraBold">Nuestros servicios</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              Ofrecemos la posibilidad de que desde el móvil puedas gestionar mejor tu tiempo
+              <br/>
+              y una mejor organización de los recursos del comercio.
             </p>
           </HeaderInfo>
           <ServiceBoxRow className="flex">
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="roller"
-                title="Graphic Design"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+                title="Diseñador Grafico"
+                subtitle="Gente creativa con habilidades artísticas y tecnológicas que crean diseños visuales atractivos y otros elementos gráficos para comunicar un mensaje o idea a un público específico."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="monitor"
-                title="Web Design"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
+                title="Diseñador Web"
+                subtitle="El diseñador web trabaja en la estructura, diseño, interactividad y experiencia del usuario de un sitio web para lograr los objetivos de la empresa o cliente que solicita el proyecto."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="browser"
-                title="Development"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+                title="Desarrollo"
+                subtitle="Gente que pueda crear, mejorar o modificar un sitio web, aplicaciones, software o cualquier otro producto digital."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
-              <ServiceBox icon="printer" title="Print" subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor." />
+              <ServiceBox
+                  icon="printer"
+                  title="CyberSeguridad"
+                  subtitle="Son los responsables de proteger los sistemas informáticos y redes de una organización contra amenazas cibernéticas."/>
             </ServiceBoxWrapper>
           </ServiceBoxRow>
         </div>
@@ -59,18 +62,17 @@ export default function Services() {
           <div className="container">
             <Advertising className="flexSpaceCenter">
               <AddLeft>
-                <h4 className="font15 semiBold">A few words about company</h4>
-                <h2 className="font40 extraBold">A Study of Creativity</h2>
-                <p className="font12">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                  diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+
+                <h2 className="font40 extraBold">Organización y tiempo en la palma de tu mano</h2>
+                <p className="font14">
+                  Intentamos disminuir el tiempo en esperas y rentabilizar los recursos de un comercio para que puedas dedicarselo a lo que más te gusta.
                 </p>
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                   <div style={{ width: "190px" }}>
-                    <FullButton title="Get Started" action={() => alert("clicked")} />
+                    <FullButton title="Regalo" action={() => alert("Enviando un Macbook Pro")} />
                   </div>
                   <div style={{ width: "190px", marginLeft: "15px" }}>
-                    <FullButton title="Contact Us" action={() => alert("clicked")} border />
+                    <FullButton title="Aprobar" action={() => alert("Aprobando con un 9")} border />
                   </div>
                 </ButtonsRow>
               </AddLeft>
